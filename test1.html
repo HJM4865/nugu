@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+     
+    <!-- 웹 폰트 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@1.0/nanumbarungothicsubset.css"> <!-- 200, 300, 400, 700 -->
+
+    <style>
+        * {margin: 0; padding: 0; font-family: 'Nanum Barun Gothic', sans-serif; }
+        /* 전체 */
+        #wrap { }
+        #section1 {width: 100%; height: 400px; } 
+        #section2 {background: #f7f9fa; }
+
+
+        /* sec1 */
+        .sec1 {overflow: hidden; padding-top: 80px; ;}
+        .sec1 .left {
+            float: left; width: 50%; 
+            background: 
+            url(../nugu/assets/img/01.png) center right 60px no-repeat ; 
+            background-size: 150px;
+            }
+        .sec1 .right {
+            float: left; width: 50%; 
+            background: 
+            url(../nugu/assets/img/02.png) center right 60px no-repeat ;
+            background-size: 150px;
+        }
+        .sec1 > div h2 {font-size: 30px; font-weight: ; padding-bottom: 20px;}
+        .sec1 > div p {margin-right: 50%; line-height: 1.7; padding-bottom: 20px;}
+        .sec1 > div a {text-decoration: none; color: #555;} 
+
+
+         /* sec2 */
+        .sec2 {height: 475px; overflow: hidden; }
+        .sec2 h2 {padding: 65px 0 20px 12px; }
+        .sec2 > div {
+            float: left;
+            width: 24%;
+            height: 300px;
+            margin: 0.5%;
+            background: 
+            url(../nugu/assets/img/03.png) no-repeat #fff;
+           background-size: 300px 170px;
+           border-radius: 10px;
+           border: 1px solid #e2e7ea;
+           box-sizing: border-box;
+            }
+        .sec2 > div h2 { text-align: center; padding-top: 70px;}
+        .sec2 > div h2 span {color: #009dff;}
+        .sec2 > div p { text-align: center; padding: 70px 0 0 20px; text-align: left;}
+        .sec2 > div a {text-decoration: none; color: #555; display: block; padding:  50px 0 0 20px;}
+
+
+        /* container */
+        .container {width: 1200px; margin: 0 auto; background: rgba(0,0,0,0);}
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <section id="section1">
+            <div class="container">
+                <div class="sec1">
+                    <div class="left">
+                        <h2>Play Builder</h2>
+                        <p>NUGU는 간단한 코드 정의와 예시 문장 입력만으로 손쉽게 NUGU 디바이스 및 애플리케이션에서 사용 가능한 AI 서비스를 만들 수 있는 툴을 지원합니다.</p>
+                        <a href="">더보기</a>
+                    </div>
+                    <div class="right">
+                        <h2>NUGU biz</h2>
+                        <p>회의실, 병원, 호텔처럼 공용의 공간에서 모두가 NUGU 서비스를 이용하거나, 내가 초대한 사용자에게만 AI 서비스를 제공할 수 있습니다.</p>
+                        <a href="">더보기</a>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- //section1 -->
+        <section id="section2">
+            <div class="container">
+                <div class="sec2">
+                    <h2>NUGU 개발 가이드</h2>
+                    <div>
+                        <h2>NUGU <span>SDK</span></h2>
+                        <p>NUGU SDK 사용하기</p>
+                        <a href="">더보기</a>
+                    </div>
+                    <div>
+                        <h2>NUGU <span>play</span></h2>
+                        <p>play builder로 play 만들기</p>
+                        <a href="">더보기</a>
+                    </div>
+                    <div>
+                        <h2>NUGU <span>buz</span></h2>
+                        <p>setup tool 설치 및 디바이스 등록</p>
+                        <a href="">더보기</a>
+                    </div>
+                    <div>
+                        <h2>NUGU <span>paly</span></h2>
+                        <p>play builder로로 지원도구</p>
+                        <a href="">더보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section2 -->
+    </div>
+</body>
+</html>
